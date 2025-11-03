@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 小游戏大厅</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hero">
+    <h1>🎮 HTML / CSS / JS 游戏大厅</h1>
+    <p>点击任意游戏开始游玩</p>
+  </div>
+
+  <div class="game-grid" id="game-grid"></div>
+
+  <!-- 模态框（点击游戏时弹出） -->
+  <div id="game-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <iframe id="game-frame" src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="portal.js"></script>
+</body>
+</html>
